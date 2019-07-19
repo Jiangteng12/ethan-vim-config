@@ -15,11 +15,9 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 # apply my vimrc
 ```bash
-// this step generally cost much time  due to the YouCompleteMe is quite
-large
+// this step generally cost much time  due to the YouCompleteMe is quite large
 :PluginInstall
-// After downloading all plugins, you need to make sure if the
-essential tools were installed on your machine. 	
+// After downloading all plugins, you need to make sure if the essential tools were installed on your machine. 	
 sudo apt-get install -y build-essential
 // install YouCompleteMe
 ./install.py --all
